@@ -76,9 +76,9 @@ int peek()
 
 int isEmpty()
 {//Check if the stack is EMPTY or not
-    if(top == -1){
+    if(top == -1)
         return 1;
-    }
+    
     return 0;
 }
 
@@ -86,9 +86,9 @@ void traverse()
 {//Printing all STACK elements
   if(top!=-1)
   { for(int i=0;i<=top;i++)
-    {
+    
       printf("%d ",stack[i]);
-    }
+    
   }
     printf("\n");
 }
