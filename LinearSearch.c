@@ -6,10 +6,8 @@ int main(){
     scanf("%d",&a);
     int arr[a];
     printf("Enter the elements of the array: ");
-    for(int i=0; i<a; i++){
+    for(int i=0; i<a; i++)
         scanf("%d",&arr[i]);
-    }
-
     int num;
     printf("Enter the element to be searched: ");
     scanf("%d",&num);
