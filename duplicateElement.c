@@ -1,17 +1,40 @@
 #include <stdio.h>
 
+int n;
+int Dup(int arr[], int element)
+{
+    int p = 0;
+    for (int i = 0; i < n; i++)
+        if (arr[i] == element)
+            p++;
+    if (p > 1)
+        return 1;
+    else
+        return 0;
+}
+
+void place(int arr[], int element)
+{
+    for (int i = 0; i < n; i++)
+        if (arr[i] == element)
+            printf("%d ", i);
+}
 int main()
 {
-  //Initialize array     
-    int a[] = {9, 8, 2, 7, 3, 7, 8, 8, 3};     
-    //Calculate length of array a    
-    int n = sizeof(a)/sizeof(a[0]);    
-    printf("Duplicate elements in given array: \n");    
-    //Searches for duplicate element    
-    for(int i = 0; i < n; i++) {    
-        for(int j = i + 1; j < n; j++)     
-            if(a[i] == a[j])    
-                printf("%d\n", a[j]);    
-    }
-  return 0;
+    printf("Enter the size of the array: ");
+    scanf("%d", &n);
+    int arr[n];
+    printf("Enter the array elements: \n");
+    for (int i = 0; i < n; i++)
+        scanf("%d", &arr[i]);
+        int key=0;
+    for (int i = 0; i < n; i++)
+        if (Dup(arr, arr[i]) == 1)
+        {
+            printf("The repeated element is: %d and it is at the index: ", arr[i]);
+            place(arr, arr[i]);
+            printf("\n");
+            // break;
+        }
+    return 0;
 }
