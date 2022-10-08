@@ -34,7 +34,7 @@ int main()
             printf("The repeated element is: %d and it is at the index: ", arr[i]);
             place(arr, arr[i]);
             printf("\n");
-            // break;
+         
         }
     return 0;
 }
