@@ -78,8 +78,8 @@ void peek()
 
 void traverse()
 {   if(start==NULL)
-   { printf("\nSTACK is EMPTY!");
-   }
+   printf("\nSTACK is EMPTY!");
+   
    else
    { struct node* temp;
      temp=(struct node*)malloc(sizeof(struct node));
