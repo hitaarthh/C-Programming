@@ -5,7 +5,6 @@ int main(){
     int second=3;
     int third=first+second;
     printf("%d %d %d ",first,second,third);
-    
     for (int i=0; i<n-2; i++){
         int fourth= first+second+third;
         printf("%d ",fourth);
