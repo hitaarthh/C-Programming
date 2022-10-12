@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-//Evaluating expotents
+
 int main()
 {
 double F,numerator,denominator;
