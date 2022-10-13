@@ -11,7 +11,6 @@ void consumer();
 int wait(int);
 int signal(int);
 
-//print available options  & read choice
 printf("\n1.Producer\n2.Consumer\n3.Exit");
 while(1)
 {

@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
 int a=1;
 switch (a << (2+a)){
