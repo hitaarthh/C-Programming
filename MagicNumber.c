@@ -26,9 +26,8 @@ int main ()
     while ( temp > 0)  
     {  
         rev = rev * 10 + temp % 10;  
-        temp = temp / 10;  
+        temp /= 10;  
     }  
-      
     printf (" \n The reverse of sum = %d", rev);  
     printf (" \n The product of %d * %d = %d", sum, rev, rev * sum);
     
