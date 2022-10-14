@@ -33,14 +33,10 @@ int main ()
     printf (" \n The product of %d * %d = %d", sum, rev, rev * sum);
     
     // checking for magic number
-    if ( rev * sum == n)  
-    {  
-        printf (" \n %d is a Magic Number. ", n);  
-    }  
-    else  
-    {  
-        printf (" \n %d is not a Magic Number. ", n);  
-    }  
+    if ( rev * sum == n)
+        printf (" \n %d is a Magic Number. ", n);    
+    else   
+        printf (" \n %d is not a Magic Number. ", n);   
     return 0;  
       
 }  
