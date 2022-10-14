@@ -5,11 +5,9 @@ int main ()
 {  
     int n, temp, rev = 0, digit, sum = 0;   
     printf (" Enter a Number: \n");  
-    scanf (" %d", &n); 
-    
+    scanf (" %d", &n);
     // assigning the number to temporary variable
-    temp = n;   
-      
+    temp = n;     
     // calculating the sum of digits  
     while ( temp > 0)  
     {  
@@ -17,7 +15,6 @@ int main ()
         sum = sum + temp % 10;   
         temp = temp / 10;  
     }  
-      
     //storing the sum
     temp = sum;   
     printf (" \n digit sum = %d", temp);  
@@ -30,7 +27,6 @@ int main ()
     }  
     printf (" \n The reverse of sum = %d", rev);  
     printf (" \n The product of %d * %d = %d", sum, rev, rev * sum);
-    
     // checking for magic number
     if ( rev * sum == n)
         printf (" \n %d is a Magic Number. ", n);    
