@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-/*
-Calculating length of side of a triangle in 2-D coordinate system using coordinates of triangle.
-Then using heron's formula to calculate the area of triangle.
-*/
 
 int main()
 {
