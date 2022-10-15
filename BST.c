@@ -66,12 +66,6 @@ void search(struct btnode *t)
 }
 
 
-/*kj
-n n m
-n
-*/
-
-// preorder
 void preorder(struct btnode *t)
 {
     if (root == NULL)
