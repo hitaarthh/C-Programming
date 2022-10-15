@@ -28,17 +28,17 @@ void main()
 	while(ne < n)
 	{
 		for(i=1,min=999;i<=n;i++)
-		{
+		
 			for(j=1;j <= n;j++)
-			{
+			
 				if(cost[i][j] < min)
 				{
 					min=cost[i][j];
 					a=u=i;
 					b=v=j;
 				}
-			}
-		}
+			
+		
 		u=find(u);
 		v=find(v);
 		if(uni(u,v))
