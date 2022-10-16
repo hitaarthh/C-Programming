@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 int main(){
     char a1[100] = {};
     char a2[100] = {};
