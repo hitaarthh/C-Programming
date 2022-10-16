@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
 	int i,factorial=1;
 	scanf("%d",&i);
