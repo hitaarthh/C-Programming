@@ -1,6 +1,7 @@
 // The longest common subsequence in C  
 #include <stdio.h>  
-#include <string.h>  
+#include <string.h> 
+
 int i, j, m, n, LCS_table[20][20];  
 char S1[20] = "abaaba", S2[20] = "babbab", b[20][20];  
 void lcsAlgo() {  
