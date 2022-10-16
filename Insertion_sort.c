@@ -9,9 +9,8 @@ int main(void)
     scanf("%d", &n);
     printf("Enter %d integers\n", n);
     for (i = 0; i < n; i++) 
-    {
+
         scanf("%d", &arr[i]);
-    }
     for (i = 1; i < n; i++) 
     {
         j = i;
