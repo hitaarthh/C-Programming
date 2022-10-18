@@ -20,3 +20,5 @@ C  is a general-purpose computer programming language. It was created in the 197
 - C source files contain declarations and function definitions. Function definitions, in turn, contain declarations and statements. Declarations either define new types using keywords such as struct, union, and enum, or assign types to and perhaps reserve storage for new variables, usually by writing the type followed by the variable name. Keywords such as char and int specify built-in types. Sections of code are enclosed in braces ({ and }, sometimes called "curly brackets") to limit the scope of declarations and to act as a single statement for control structures.
 
 </div>
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
