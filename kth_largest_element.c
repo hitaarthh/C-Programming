@@ -1,12 +1,10 @@
 #include <stdio.h>  
 #include <stdlib.h>  
   
-// Compare function for the qsort  
 int cmp_func (const void * a, const void * b) {  
    return ( *(int*)a - *(int*)b );  
 }  
   
-// Function that reverses the array  
 void reverse (int arr[], int n){  
     for(int i = 0; i < n/2; i++){  
         int temp = arr[i];  
@@ -14,8 +12,6 @@ void reverse (int arr[], int n){
         arr[n-i-1] = temp;  
     }  
 }  
-  
-// Function that returns the Kth largest element  
 int kth_largest_element(int arr[], int k, int n){  
     // Sorts the array  
     qsort(arr, n, sizeof(int), cmp_func);  
