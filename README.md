@@ -22,3 +22,9 @@ C  is a general-purpose computer programming language. It was created in the 197
 </div>
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+
+
+<div align="center">
+<h2>Contributors</h2>
+<img src="https://contrib.rocks/image?repo=hitaarthh/C-Programming">
+</div>
