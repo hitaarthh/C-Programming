@@ -4,24 +4,20 @@
 
 // perform the bubble sort
 void bubbleSort(int array[], int size) {
-
   // loop to access each array element
+  int f=0;
   for (int step = 0; step < size - 1; ++step) {
-      
     // loop to compare array elements
     for (int i = 0; i < size - step - 1; ++i) {
-      
-      // compare two adjacent elements
-      // change > to < to sort in descending order
       if (array[i] > array[i + 1]) {
-        
-        // swapping occurs if elements
-        // are not in the intended order
+        f=1;
         int temp = array[i];
         array[i] = array[i + 1];
         array[i + 1] = temp;
       }
     }
+    if(f==0)
+      return;
   }
 }
 
