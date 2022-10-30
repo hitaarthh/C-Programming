@@ -1,7 +1,6 @@
 #include<stdio.h>
 void ReadMatrix(int,int,int mat[][10]);
 void FindMaxSum(int,int,int mat[][10]);
-
 int main()
 {
 	int rows,columns;
