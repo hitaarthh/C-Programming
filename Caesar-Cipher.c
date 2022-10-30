@@ -20,9 +20,7 @@ int main(){
             S[i]=S[i]+K;
             while(S[i]>90)
                 S[i]=(S[i]%90)+65-1;  // after Z it will start from A again.
-            }
-
-            
+            }   
         }   printf("%s",S);
     return 0;
 }
